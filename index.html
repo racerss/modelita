@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="images/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>Calidad de producto</span>
+                        <h3></h3>
+                        <p>
+
+                           <p>•	No vas a encontrarlo en un precio mejor</p>
+                            <p>•Sin duda, es la mejor adquisición que hará </p>
+                            <p>•Muchas personas lo han comprado</p>
+                            <p>•¿No te convence?, lo puedes devolver</p>
+                            <p>•100 % original </p>
+                            <p>•Es algo totalmente personalizado para ti </p>
+
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="images/1.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">volver</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="images/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>Realizamos servisio de delivery</span>
+                        <h3></h3>
+                        <p>
+
+                           <p>• Priorización y organización efectiva de pedidos.</p>
+                            <p>• Planificación integral y proactiva. .</p>
+                            <p>• Monitoreo y seguimiento en tiempo real. .</p>
+                            <p>•Eficiencia en la planificación de rutas.</p>
+
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="images/2.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">volver</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="images/logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <span>Moda actual</span>
+                        <h3></h3>
+                        <p>
+
+                           <p>•	Viste el éxito.</p>
+                            <p>•Descubre el poder de la elegancia. </p>
+                            <p>•Haz una declaración con tu estilo.</p>
+                            <p>•Transforma tu vestuario, transforma tu vida.</p>
+                            <p>•Encuentra la comodidad en cada detalle.</p>
+                            <p>•Tu estilo, tu historia, tu marca.</p>
+                            <p>•Siente la calidad, vive el estilo.</p>
+
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="images/3.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">volver</a>
+            </div>
+
+        </div>
+    </div>
+    
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSildes: true,
+            slidesPerview: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                rotate:1,
+                stretch:1,
+            }
+        })
+    </script>
+</body>
+</html>

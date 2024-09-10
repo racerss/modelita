@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background-color: #323232;
+    font-family: Helvetica Neve, Helvetica;
+    font-size: 14px;
+    color: #2b16e7;
+    margin: 0;
+    padding: 0;
+}
+
+
+.swiper {
+    width: 100%;
+    padding: 155px 0 100px 0;
+}
+
+.swiper-slide {
+    width: 100px;
+    height: 700px;
+    background-color: #f80b0b;
+    box-shadow: 0 0 20px rgb(7, 7, 230);
+    padding: 40px;
+    text-align: center;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #ffb900;
+}
+
+.icons img {
+    width: 160px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-txt {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.product-txt span {
+    font-size: 25px;
+    color: #ffb900;
+    font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 25px;
+    color: #2b08f1;
+    text-transform: uppercase;
+}
+
+.product-txt p {
+    font-size: 16px;
+    color: #1f068d;
+}
+
+.product-img {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.product-img img {
+    width: 400px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid #ffb900;
+    border-radius: 25px;
+    color: #ffb900;
+    text-decoration: none;
+    margin-top: 50px;
+}
